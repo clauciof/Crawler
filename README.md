@@ -46,18 +46,6 @@ Após a captura também foi feita uma pequena análise dos dados.
 
 O arquivo Análises.ipynb contém tais análises.
 
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
 
 
 ## Autor
