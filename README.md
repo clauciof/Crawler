@@ -12,7 +12,7 @@ Após finalizar a coleta, os dados coletados (nome do produto, preço, nome do s
 
 Python3 e bibliotecas BeautifulSoup4, Pandas, csv, pymysql, sqlalchemy.
 
-### Script para criação da tabela 
+#### Script para criação da tabela 
 ```
 CREATE TABLE dados (
   Produto varchar(200),
