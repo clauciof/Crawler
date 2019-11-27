@@ -116,10 +116,10 @@ if __name__ == "__main__":
     links = links['Link'].values.tolist()
 
     crawler = Crawler()
-    t1 = threading.Thread(target=crawler.start, args=(links[0:250],)) 
-    t2 = threading.Thread(target=crawler.start, args=(links[250:500],)) 
-    t3 = threading.Thread(target=crawler.start, args=(links[500:750],)) 
-    t4 = threading.Thread(target=crawler.start, args=(links[750:1000],)) 
+    t1 = threading.Thread(target=crawler.start, args=(links[0:10000],)) 
+    t2 = threading.Thread(target=crawler.start, args=(links[10000:20000],)) 
+    t3 = threading.Thread(target=crawler.start, args=(links[20000:30000],)) 
+    t4 = threading.Thread(target=crawler.start, args=(links[30000:40000],)) 
    
     t1.start() 
     t2.start()
