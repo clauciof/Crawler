@@ -134,4 +134,4 @@ if __name__ == "__main__":
     crawler.df.to_csv('dados.csv', index=False)
     crawler.insert_db()
 
-    print("Scrapy feito!") 
+    print("Scrapy feito!")
