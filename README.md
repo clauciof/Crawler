@@ -6,11 +6,20 @@ Crawler feito em python que acessa 40.000 links de páginas entre Mercado Livre,
 ## Início
 
 O Crawler é executado no arquivo crawler.py. Primeiro ele lê o arquivo offers.csv onde estão localizados os 40 000 links.
-Após finalizar a coleta, os dados coletados (nome do produto, preço, nome do site e link) são salvos em um banco de dados MySQL trabalhando localhost ( tabela de nome etl ) . Também é criado um arquivo dados.csv com os mesmos dados.
+Após finalizar a coleta, os dados coletados (nome do produto, preço, nome do site e link) são salvos em um banco de dados MySQL trabalhando localhost ( nome do banco etl ) . Também é criado um arquivo dados.csv com os mesmos dados.
 
 ### Pré Requisitos
 
 Python3 e bibliotecas BeautifulSoup4, Pandas, csv, pymysql, sqlalchemy.
+
+###Script para criação da tabela 
+
+CREATE TABLE dados (
+  Produto varchar(200),
+  Preco double ,
+  Site varchar(20),
+  Link varchar(300)
+) 
 
 ### Execução
 Comando para executar o Crawler:
