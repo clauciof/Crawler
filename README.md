@@ -16,7 +16,7 @@ Python3 e bibliotecas BeautifulSoup4, Pandas, csv, pymysql, sqlalchemy.
 ```
 CREATE TABLE dados (
   Produto varchar(200),
-  Preco double ,
+  Preco float ,
   Site varchar(20),
   Link varchar(300)
 ) 
